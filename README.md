@@ -21,6 +21,14 @@ $ yarn install
 
 ## Usage
 
+### For Development
+
 ```bash
 $ yarn dev
+```
+
+### For Production
+
+```bash
+$ docker-compose up -d
 ```
