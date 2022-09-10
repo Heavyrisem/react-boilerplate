@@ -2,6 +2,21 @@
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {
+            "@utils/*": [
+                "src/utils/*"
+            ],
+            "@styles/*": [
+                "src/styles/*"
+            ],
+            "@contexts/*": [
+                "src/contexts/*"
+            ],
+            "@routers/*": [
+                "src/routers/*"
+            ],
+            "@pages/*": [
+                "src/pages/*"
+            ],
             "@hooks/*": [
                 "src/hooks/*"
             ],

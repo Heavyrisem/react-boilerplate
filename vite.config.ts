@@ -31,6 +31,23 @@ export default defineConfig({
       { find: '@components', replacement: 'src/components' },
       { find: '@pages', replacement: 'src/pages' },
       { find: '@hooks', replacement: 'src/hooks' },
+      { find: '@routers', replacement: 'src/routers' },
+      { find: '@contexts', replacement: 'src/contexts' },
+      { find: '@styles', replacement: 'src/styles' },
+      { find: '@utils', replacement: 'src/utils' },
     ],
+  },
+  esbuild: {
+    logOverride: { 'this-is-undefined-in-esm': 'silent' },
+  },
+  server: {
+    proxy: {
+      '/api': {
+        target: 'http://localhost:3000',
+        changeOrigin: true,
+        secure: false,
+        ws: true,
+      },
+    },
   },
 });
