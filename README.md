@@ -1,8 +1,8 @@
-# React BoilerPlate
+# Vite BoilerPlate
 
 ## Description
 
-this is a boilerplate for react projects
+this is a boilerplate for vite projects
 
 - Vite
 - ESlint
