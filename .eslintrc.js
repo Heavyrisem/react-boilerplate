@@ -59,6 +59,7 @@ module.exports = {
         ],
         'jsx-a11y/media-has-caption': 'off',
         'jsx-a11y/control-has-associated-label': 'off',
-        "react/prop-types": "off"
+        "react/prop-types": "off",
+        "prettier/prettier": ["error", { "endOfLine": "auto" }]
     },
 };
